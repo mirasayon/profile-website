@@ -1,0 +1,30 @@
+{
+  "name": "mirasayon-porfolio-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3301",
+    "turbo": "next dev -p 3301 --turbo",
+    "build": "next build",
+    "start": "next start",
+    "start:dev": "next start  -p 3301",
+    "lint": "next lint"
+  },
+  "author": {
+    "name": "MiraSayon",
+    "email": "mirasayon@ya.ru",
+    "url": "https://github.com/mirasayon"
+  },
+  "dependencies": {
+    "@next/third-parties": "^14.2.4",
+    "next": "^14.2.4",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}

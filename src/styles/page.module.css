@@ -1,0 +1,41 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.logo {
+  position: static;
+  padding: 4px;
+  margin: 4px;
+}
+.rlogo {
+  position: static;
+  padding: 4px;
+  margin: 4px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+  gap: 5px;
+  padding: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .logo {
+    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}

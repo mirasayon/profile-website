@@ -6,6 +6,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 const lFont = localFont({
   src: "./fonts/0xProtoNerdFontMono-Regular.woff2",
   display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
@@ -42,7 +43,6 @@ export default function RootLayout({
         </a>
 
         {children}
-        {gaid ? "gae" : "gane"}
       </body>
       {gaid && <GoogleAnalytics gaId={gaid} />}
     </html>

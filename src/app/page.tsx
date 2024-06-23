@@ -7,7 +7,7 @@ export default function RootPage() {
       <h1>Hiii, I'm Mirasayon</h1>
       <p>
         Developer and shinobi. Node.js/Deno Fullstack developer from
-        Konohagakure. Developer of <a href="https://reanime.art">reanime.art</a>
+        Konohagakure. Developer of <a href="https://reanime.art/?utm_source=ver_web_mrs_profile">reanime.art</a>
       </p>
       <span>
         JavaScript, oh yeah, your skin and bones <br />
@@ -17,7 +17,7 @@ export default function RootPage() {
       </span>
       <p>Contacts</p>
       <div className={styles.links}>
-        <a href="https://reanime.art">
+        <a href="https://reanime.art/?utm_source=ver_web_mrs_profile">
           <img
             className={styles.rlogo}
             src="/icon.png"
